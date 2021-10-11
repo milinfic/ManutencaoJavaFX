@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.VBox?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <content>
+      <VBox>
+         <children>
+            <MenuBar prefHeight="29.0" prefWidth="599.0">
+               <menus>
+                  <Menu mnemonicParsing="false" text="CADASTRAR">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="CLIENTES" />
+                        <MenuItem mnemonicParsing="false" text="FORNECEDORES" />
+                        <MenuItem mnemonicParsing="false" text="ESTOQUE" />
+                     </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="SERVIÇOS">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="NOVO" />
+                        <MenuItem mnemonicParsing="false" text="ATUALIZAR" />
+                     </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="CONSULTAR">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="CONSULTA OS" />
+                     </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="SAIR" />
+               </menus>
+            </MenuBar>
+         </children>
+      </VBox>
+   </content>
+</ScrollPane>
